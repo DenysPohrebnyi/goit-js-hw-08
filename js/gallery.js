@@ -89,10 +89,9 @@ function handleClick(event) {
   if (event.target === event.currentTarget) {
     return;
   }
-  const target = event.target.closest(".gallery-image");
 
-  const selectImgSrc = target.dataset.source;
-  const selectImgAlt = target.alt;
+  const selectImgSrc = event.target.dataset.source;
+  const selectImgAlt = event.target.alt;
   const instance = basicLightbox.create(`
 	<div class="modal">
     <img src="${selectImgSrc}" alt="${selectImgAlt}" />
