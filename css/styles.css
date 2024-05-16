@@ -32,12 +32,6 @@ img {
     transform: scale(1.04);
 }
 
-.modal {
-    background-color: #2E2F42CC;
-    /* opacity: 0.8; */
-    padding: 28px 164px;
-}
-
 .modal img {
     max-width: 1112px;
 }
